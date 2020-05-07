@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     class="com.example.fragmentossepara2.MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

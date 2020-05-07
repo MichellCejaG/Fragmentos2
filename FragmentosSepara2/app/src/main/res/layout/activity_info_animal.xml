@@ -4,11 +4,25 @@
     android:layout_height="match_parent"
     class="com.example.fragmentossepara2.MainActivity">
 
-    <fragment
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+    <FrameLayout
         android:id="@+id/fragment_info_animal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         class="com.example.fragmentossepara2.ListaAnimalesFragment"
         />
+    <fragment
+        android:id="@+id/lista_animales"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        class="com.example.fragmentossepara2.ListaAnimalesFragment"
+        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
